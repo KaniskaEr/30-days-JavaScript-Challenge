@@ -19,7 +19,3 @@ Over the course of 30 days, I'll be working on different projects using **HTML**
 - Improve my problem-solving and coding skills.
 - Get more comfortable with JavaScript frameworks in the future.
 
-## 📂 How to Use
-1. Clone this repository:  
-   ```bash
-   git clone https://github.com/your-username/js-30days-challenge.git
