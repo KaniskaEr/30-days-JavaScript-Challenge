@@ -1,0 +1,97 @@
+body {
+    font-family: 'Poppins', sans-serif; /* Updated to a modern font */
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; /* Light background color */
+    color: #333; /* Soft text color */
+}
+
+header {
+    background-color: #4269f5; /* Slightly darker shade of blue */
+    color: white;
+    text-align: center;
+    padding: 1.5rem 0; /* More padding for breathing space */
+    font-size: 1.8rem; /* Larger header text */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+main {
+    max-width: 800px;
+    margin: 2rem auto; /* Added top and bottom margin */
+    padding: 2rem;
+    background-color: white; /* White background for the content */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+.task-form {
+    display: flex;
+    gap: 15px; /* Increased gap between elements */
+    margin-bottom: 20px;
+}
+
+.task-form input {
+    flex-grow: 1;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+}
+
+.task-form input:focus {
+    border-color: #007bff; /* Focus state with blue border */
+    outline: none;
+}
+
+.task-form button {
+    padding: 10px 20px;
+    background-color: #28a745; /* Green button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.task-form button:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+.task-list {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #f9f9f9; /* Light background for task list */
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition */
+}
+
+.task:hover {
+    transform: translateY(-5px); /* Subtle lift effect on hover */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Shadow on hover */
+}
+
+.task button {
+    background-color: #dc3545; /* Red button for remove */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.task button:hover {
+    background-color: #c82333; /* Darker red on hover */
+}
