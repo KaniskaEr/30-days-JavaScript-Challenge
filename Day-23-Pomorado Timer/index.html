@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pomodoro Pro</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1 class="title">Pomodoro Pro</h1>
+
+    <div class="timer-display">
+      <span id="minutes">25</span>:<span id="seconds">00</span>
+    </div>
+
+    <div class="controls">
+      <button id="start" class="btn start">Start</button>
+      <button id="pause" class="btn pause">Pause</button>
+      <button id="reset" class="btn reset">Reset</button>
+    </div>
+
+    <div class="intervals">
+      <button id="pomodoro" class="interval-btn">Pomodoro (25 min)</button>
+      <button id="shortBreak" class="interval-btn">Short Break (5 min)</button>
+      <button id="longBreak" class="interval-btn">Long Break (15 min)</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
